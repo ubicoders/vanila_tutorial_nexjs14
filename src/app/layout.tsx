@@ -14,9 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>this is header</header>
         {children}
-        <footer>this is footer</footer>
+        <footer className="bg-teal-500">this is footer</footer>
       </body>
     </html>
   );

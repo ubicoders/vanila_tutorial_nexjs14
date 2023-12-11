@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /classroom/
+Sitemap: https://ubicoders.com/sitemap.xml

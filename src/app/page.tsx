@@ -1,3 +1,5 @@
+import { getFakeMetadata } from "@/fake_db/dummy_metadata";
+
 export default function Home() {
   return (
     <div>
@@ -5,4 +7,8 @@ export default function Home() {
       this is main
     </div>
   );
+}
+
+export async function generateMetadata() {
+  return getFakeMetadata("main");
 }
